@@ -1,0 +1,13 @@
+.profile__info {
+  position: relative;
+  color: #fff;
+  text-align: center;
+  max-width: calc(100% - 56px);
+}
+
+@media (min-width: 768px) {
+  .profile__info {
+    max-width: calc(100% - 430px);
+    text-align: left;
+  }
+}
