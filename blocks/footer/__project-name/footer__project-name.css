@@ -1,0 +1,14 @@
+.footer__project-name {
+  margin: 0;
+  color: #545454;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .footer__project-name {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
