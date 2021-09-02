@@ -22,3 +22,13 @@
     transform: translate(100%, -100%);
   }
 }
+
+@media (hover: hover) {
+  .popup__button-close {
+    transition: opacity .13s linear;
+  }
+
+  .popup__button-close:hover {
+    opacity: .6;
+  }
+}

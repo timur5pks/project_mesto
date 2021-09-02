@@ -18,3 +18,13 @@
     margin-left: auto;
   }
 }
+
+@media (hover: hover) {
+  .profile__button-add-image {
+    transition: opacity .13s linear;
+  }
+
+  .profile__button-add-image:hover {
+    opacity: .6;
+  }
+}

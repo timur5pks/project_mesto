@@ -20,3 +20,12 @@
     right: -46px;
   } 
 }
+@media (hover: hover) {
+  .profile__button-edit-info {
+    transition: opacity .13s linear;
+  }
+
+  .profile__button-edit-info:hover {
+    opacity: .6;
+  }
+}

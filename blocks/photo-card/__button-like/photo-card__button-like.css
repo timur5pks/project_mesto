@@ -10,3 +10,13 @@
   background-repeat: no-repeat;
   border: none;
 }
+
+@media (hover: hover) {
+  .photo-card__button-like {
+    transition: opacity .13s linear;
+  }
+
+  .photo-card__button-like:hover {
+    opacity: .6;
+  }
+}

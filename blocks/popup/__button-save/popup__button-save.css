@@ -17,3 +17,13 @@
     line-height: 22px;
   }
 }
+
+@media (hover: hover) {
+  .popup__button-save {
+    transition: opacity .13s linear;
+  }
+
+  .popup__button-save:hover {
+    opacity: .8;
+  }
+}
