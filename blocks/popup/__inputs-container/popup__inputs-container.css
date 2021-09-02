@@ -1,0 +1,13 @@
+.popup__inputs-container {
+  width: calc(100% - 44px);
+  max-width: 358px;
+  margin: 0 auto 45px;
+  padding: 0;
+  border: none;
+}
+
+@media (min-width: 768px) {
+  .popup__inputs-container {
+    margin: 0 auto 48px;
+  }
+}

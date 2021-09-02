@@ -1,0 +1,7 @@
+.popup__handlers-container {
+  width: calc(100% - 44px);
+  max-width: 358px;
+  margin: 0 auto;
+  padding: 0;
+  border: none;
+}
