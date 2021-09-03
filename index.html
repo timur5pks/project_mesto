@@ -22,9 +22,9 @@
         <div class="profile__info">
           <h1 class="profile__name">Жак-Ив Кусто</h1>
           <p class="profile__profession">Исследователь океана</p>
-          <button class="profile__button-edit-info"></button>
+          <button class="profile__button-edit-info" type="button"></button>
         </div>
-        <button class="profile__button-add-image"></button>
+        <button class="profile__button-add-image" type="button"></button>
       </section>
       
       <section class="photo-cards centered-block">
@@ -70,12 +70,12 @@
       <form action="" class="popup__container">
         <h3 class="popup__title">Редактировать профиль</h3>
         <fieldset class="popup__inputs-container">
-          <input type="text" class="popup__input popup__input_type_name" placeholder="Имя">
-          <input type="text" class="popup__input popup__input_type_profession" placeholder="Профессия">
+          <input type="text" class="popup__input popup__input_type_name" name="name" placeholder="Имя" required>
+          <input type="text" class="popup__input popup__input_type_profession" name="profession" placeholder="Профессия" required>
         </fieldset>
         <fieldset class="popup__handlers-container">
-          <button class="popup__button-save" type="submit">Сохранить</button>
-          <button class="popup__button-close" type="submit"></button>
+          <button class="popup__button-save">Сохранить</button>
+          <button class="popup__button-close" type="button"></button>
         </fieldset>
       </form>
     </div>
